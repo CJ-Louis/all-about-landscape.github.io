@@ -1,0 +1,122 @@
+
+.topbar{
+    /* background-color: rgb(138, 43, 226, 0.4); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: max-content;
+    height: 70px;
+    position: relative;
+
+    /* bottom: 20px; */
+}
+
+
+.topimg{
+    position: static;
+    width: max-content;
+    min-width: 700px;
+    left: 10%;
+    z-index: -2;
+}
+.logo{
+    justify-content: center;
+    width: 220px;
+    height: 75px;
+}
+.userbuttons{
+    /* width: 400px; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    bottom: 10px;
+    right: 15px;
+}
+.cloudprofile{
+    width: 120px;
+    height: 80px;
+}
+.logout{
+    z-index: 2;
+    background-color: orange;
+    color: white;
+    border: none;
+    position: relative;
+    right: 1px;
+    width: 140px;
+}
+.songslogo{
+    position: relative;
+    width: 120px;
+    height: 60px;
+    right: 0px;
+    top: 15px;
+}
+.albumslogo{
+    position: relative;
+    width: 120px;
+    height: 60px;
+    right: 0px;
+    top: 15px;
+}
+/* .logo{
+    position: relative;
+    top: 10px;
+    width: 160px;
+    height: 60px;
+    padding-right: 15px;
+ */
+.blacksheep{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    min-width: 600px;
+    height: 70px;
+    /* bottom: 20px; */
+    /* z-index: 10; */
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.navlinktopbar{
+    position: relative;
+    width: 140px;
+    height: 40px;
+    right: 0px;
+    /* top: px; */
+    border-right: 5px;
+    border-left: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(11, 159, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    /* flex-flow: row wrap; */
+}
+.linkybox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.uploadstats{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-decoration: none;
+    /* bottom: 10px; */
+    right: 41px;
+    width: 240px;
+    border: 1px solid grey;
+    background-color: rgb(73, 73, 73);
+}
+.uploadtxt{
+    text-decoration: none;
+    color: white;
+    width: 180px;
+    height: 50px;
+
+}
